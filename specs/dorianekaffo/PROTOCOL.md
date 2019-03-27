@@ -20,7 +20,7 @@ Le serveur décode les messages entrants et exécute la demande en appelant une 
 Le client code et envoie la demande au serveur. La réponse du serveur est ensuite transmise à l'utilisateur.
 
 6. What is the syntax of the messages? How we generate and parse them?
-Le message est une chaîne. Cette dernière cntients les oprandes 1 et 2 et les opérations à éféctuer.
+Le message est une chaîne. Cette dernière contient les oprandes 1 et 2 et les opérations à éféctuer.
 nous allons diviser l’équation en opérande et opération afn d'éffectuer le calcul.
 
 7. Who closes the connection and when?
