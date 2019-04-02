@@ -53,7 +53,7 @@ specification:
   ​	
 
   ```
-  Client :   >1+1
+  Client :  >1+1
   
   Server:   >1+1 = 2
   
@@ -65,7 +65,7 @@ specification:
   ```
   The client can closed the connection.
   
-  Otherwise, the server can also closed it if fter a lapse of time(1min) , there is no demande
+  Otherwise, the server can also closed it if after a lapse of time(1min) , there is no demande
   ```
 
 - Submit a PR
@@ -95,18 +95,3 @@ specification:
   ```
   No
   ```
-
-
-## Phase 3: validate specs in pairs (15 minutes)
-
-- Work with the student sitting next to you
-- One of them is the server, the other is the client
-- Pick one of the 2 specifications
-- One student uses netcat (nc) to start a server (nc -kl). The other student uses netcat to start a client.
-- Go through a couple of scenarios to validate that your specification is complete (if you need to ask something to the other student, or if you need to discuss, you probably should make your specification more complete)
-
-## Phase 4: implement a client a server (45 minutes)
-
-- One student implements a client in Java
-- The other student implements a server in Java
-- The team performs various tests to validate that the client and the server work together (on the same machine, across two machines connected to the same network, in Docker containers)
